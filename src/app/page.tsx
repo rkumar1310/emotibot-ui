@@ -1,7 +1,6 @@
 "use client";
 
 import Logo from "@/components/Logo";
-import Image from "next/image";
 import { useEffect, useState } from "react";
 // This is your custom hook
 function useDebounce(value: string, delay: number) {
@@ -123,9 +122,9 @@ export default function Home() {
         <a href="https://rajesh.ai" target="_blank" className="font-bold">
           rajesh.ai
         </a>
-        . You'll find a range of projects I've worked on, leveraging
-        cutting-edge technologies to solve real-world problems. Let's connect
-        and discuss how I can help you bring your vision to life.
+        . You&apos;ll find a range of projects I&apos;ve worked on, leveraging
+        cutting-edge technologies to solve real-world problems. Let&apos;s
+        connect and discuss how I can help you bring your vision to life.
       </div>
       <div className="-z-10 absolute flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px]"></div>
     </main>
